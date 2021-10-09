@@ -8,7 +8,7 @@
     "dev": "webpack-serve",
     "build": "webpack --mode=production",
     "postbuild": "cp ./public/index.html ./dist/index.html",
-    "start": "serve --no-clipboard --listen 8080 dist",
+    "start": "serve --no-clipboard --listen 3000 dist",
     "lint": "eslint .",
     "format": "prettier \"**/*.js\" --write",
     "validate": "npm run lint && npm run test && npm run build",
@@ -46,7 +46,10 @@
     "webpack-serve": "^1.0.4"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "emotion": "^9.2.4",
+    "emotion-theming": "^11.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-emotion": "^9.2.4",
