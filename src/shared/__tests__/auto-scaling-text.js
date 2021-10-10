@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { render } from 'calculator-jest-utils'
 import AutoScalingtext from '../auto-scaling-text'
 
 test('renders', () => {
